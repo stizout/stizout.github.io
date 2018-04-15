@@ -1,5 +1,3 @@
-alert("hello");
-
-$(".jumbotron").on("click", "p", function() {
+$("#intro").on("click", function() {
 $(this).toggleClass("upperCase");
 });

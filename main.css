@@ -2,25 +2,16 @@ body {
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: purple;
 
 }
 
-.jumbotron {
-  margin: 20px auto;
-  width: 125%;
-  color: white;
-  background: none;
-  background-color:transparent !important;
+.container {
+  margin-top: 100px;
 }
 
-.jumbotron p {
-  max-width: 50%;
-  float: left;
-  margin: 80px 100px;
-  text-align: center;
-  color: black;
-  
+hr {
+  border-top: 5px black dotted;
+  margin: 100px 0;
 }
 #profilePic {
   max-height: 400px;
@@ -28,17 +19,22 @@ body {
   display: block;
 }
 
-#endOfBio {
-  border-top: 5px dotted #101010;
-}
 .row {
   margin-top: 20px;
 }
-.thumbnail {
+.thumbnail.profile {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  background: transparent;
+  border-style: none;
+}
+.thumbnail.pic {
   min-height: 250px;
+  width: 100%;
 }
 
-.thumbnail:hover {
+.thumbnail.pic:hover {
   border: 5px solid teal;
 }
 
@@ -55,6 +51,12 @@ body {
   font-size: 48px;
 }
 
+#intro {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+
+}
 #intro:hover {
   color: white;
 }
