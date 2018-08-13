@@ -9,6 +9,15 @@ body {
   margin-top: 100px;
 }
 
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+
+.navbar-nav li {
+  font-size: 18px;
+}
+
 hr {
   border-top: 5px black dotted;
   margin: 100px 0;
@@ -30,9 +39,12 @@ hr {
   border-style: none;
 }
 .thumbnail.pic {
-  height: 250px;
-  overflow: hidden;
+  min-height: 250px;
+}
 
+.thumbnail img {
+  min-width: 300px;
+  overflow: hidden;
 }
 
 
@@ -57,10 +69,11 @@ hr {
   text-align: center;
   margin-top: 50px;
   font-size: 24px;
+  color: white;
 
 }
 #intro:hover {
-  color: white;
+  color: #0f0c29;
 }
 
 a {
