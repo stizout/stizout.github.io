@@ -42,9 +42,10 @@ hr {
   min-height: 250px;
 }
 
-.thumbnail img {
-  min-width: 300px;
-  overflow: hidden;
+.thumbnail a img {
+  min-width: 100%;
+  min-height: 100%;
+  overflow: auto;
 }
 
 
