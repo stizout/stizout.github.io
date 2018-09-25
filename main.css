@@ -104,6 +104,10 @@ hr {
   align-items: center;
 }
 
+.menubar {
+  display: none;
+}
+
 
 #facebook {
   margin-right: 10px;
