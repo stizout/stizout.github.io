@@ -58,10 +58,8 @@ hr {
 }
 
 .last {
-  max-width: 361px;
-  margin-left: 390px;
+  margin-left: 200px;
 }
-
 #bottom {
   height: 250px;
   background: #101010;
@@ -69,8 +67,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 64px
-
+  font-size: 64px;
 }
 
 
