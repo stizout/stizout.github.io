@@ -40,18 +40,16 @@ hr {
 }
 
 .thumbnail {
-  /* background: transparent; */
+  overflow: hidden;
 }
 .thumbnail.pic {
-  min-height: 250px;
+  height: 250px;
 }
 
-.thumbnail a img {
-  max-width: 300;
-  max-height: 250px;
-  overflow: auto;
+.thumbnail.pic img {
+  object-fit: cover;
+  height: 100%;
 }
-
 
 .thumbnail.pic:hover {
   border: 5px solid white;
