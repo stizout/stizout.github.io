@@ -103,6 +103,12 @@ hr {
   display: none;
 }
 
+.wordpress-title {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
 
 #facebook {
   margin-right: 10px;
