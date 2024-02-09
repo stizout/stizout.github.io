@@ -1,124 +1,145 @@
 body {
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #0f0c29; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 
 .navbar-brand {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
 }
 
 .navbar-nav li {
-  font-size: 18px;
+	font-size: 18px;
 }
 
 hr {
-  border-top: 5px black dotted;
-  margin: 100px 0;
+	border-top: 5px black dotted;
+	margin: 50px 0;
 }
 #profilePic {
-  max-height: 400px;
-  border-radius: 10%;
-  display: block;
+	max-height: 400px;
+	border-radius: 10%;
+	display: block;
 }
 
 .row {
-  margin-top: 20px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
 }
 .thumbnail.profile {
-  max-width: 300px;
-  display: block;
-  margin: auto;
-  background: transparent;
-  border-style: none;
+	max-width: 300px;
+	display: block;
+	margin: auto;
+	background: transparent;
+	border-style: none;
 }
 
 .thumbnail {
-  overflow: hidden;
+	overflow: hidden;
 }
 .thumbnail.pic {
-  height: 250px;
+	height: 250px;
 }
 
 .thumbnail.pic img {
-  object-fit: cover;
-  height: 100%;
+	object-fit: cover;
+	height: 100%;
 }
 
 .thumbnail.pic:hover {
-  border: 5px solid white;
+	border: 5px solid white;
 }
 
 .last {
-  margin-left: 200px;
+	margin-left: 200px;
 }
 #bottom {
-  height: 250px;
-  padding: 0 260px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 64px;
+	height: 250px;
+	padding: 0 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 64px;
 }
 
-
 #intro {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 24px;
-  color: white;
-
+	text-align: center;
+	margin-top: 50px;
+	font-size: 24px;
+	color: white;
 }
 
 .aboutme {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .competencies {
-  display: flex;
-  color: white;
-  flex-direction: column;
-  font-size: 24px;
-  align-items: center;
-  margin: 0 35px;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	font-size: 24px;
+	align-items: center;
+	margin: 0 35px;
 }
 
 .contactme {
-  display: flex;
-  color: white;
-  flex-direction: column;
-  font-size: 24px;
-  align-items: center;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	font-size: 24px;
+	align-items: center;
 }
 
 .menubar {
-  display: none;
+	display: none;
 }
 
-.wordpress-title {
-  text-align: center;
-  font-size: 5rem;
-  color: white;
+.projects-title {
+	font-size: 38px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
 }
-
 
 #facebook {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 a {
-  color: #101010;
+	color: white;
 }
 #facebook:hover {
-  color: #4267b2;
+	color: #4267b2;
 }
 #linkedin:hover {
-  color: #0077B5;
+	color: #0077b5;
+}
+
+@media screen and (max-width: 500px) {
+	.competencies {
+		font-size: 18px;
+	}
+	iframe {
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 700px) {
+}
+
+@media screen and (max-width: 1300px) {
+	iframe {
+		width: 500px;
+		height: 315px;
+	}
 }
